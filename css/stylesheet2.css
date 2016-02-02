@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+h1{
+  font-family: sans-serif, sans-serif;
+  font-variant: small-caps;
+  font-size: 70px;
+
+}
+
+p{
+ font-family: sans-serif;
+ bottom: 20px
+}
+
+img{
+ width: 30%;
+ margin-top: 50px;
+
+}
+
+
+.she_images{
+position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+
+.breite {
+  width: 80px;
+
+}

@@ -87,11 +87,11 @@ img {
 
 
 nav {
-   position: fixed;
-   bottom: 0;
-   height: 45px;
-   background: #FFF;
-   padding-bottom: 11px;
+  position: fixed;
+  bottom: 0;
+  height: 45px;
+  background: #FFF;
+  padding-bottom: 11px;
 }
 
 
@@ -115,10 +115,14 @@ nav {
   .content {
     max-width: 768px;
   }
+
   nav {
     text-align: center;
     height: 45px;
   }
+
+
+
   .nav ul li {
     margin: 0 10px;
   }
@@ -127,14 +131,17 @@ nav {
 
 /* Smartphones */
 @media screen and (max-width: 640px) {
+
   nav {
     text-align: center;
     height: 110px;
   }
+
   .nav_left,
   .nav_right {
     float: none;
   }
+
   .nav ul li {
     margin: 0 20px;
   }
@@ -142,8 +149,9 @@ nav {
 
   h1 {
     text-align: center;
-
   }
+
+
   img {
     width: 30%;
     margin: auto;
@@ -153,8 +161,6 @@ nav {
 
   .content {
     margin-top: 40px;
-
-
   }
 
 }

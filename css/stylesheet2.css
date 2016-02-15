@@ -117,10 +117,11 @@ nav {
 
 .zoom {
   width: 500px;
+  display: block;
   margin: 0 auto 0;
 
-
 }
+
 
 .breite {
   width: 300px;
@@ -128,7 +129,6 @@ nav {
   margin-right: 25px;
 
 }
-
 
 
 .container {
@@ -193,7 +193,8 @@ nav {
   .zoom {
     width: 350px;
     align-items: center;
-    flex-wrap: wrap;
+    margin-top: 70px;;
+
   }
 
 }

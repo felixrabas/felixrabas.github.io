@@ -5,10 +5,7 @@
 }
 
 
-
 html, body {
-  margin: 0;
-  padding: 0;
   height: 100%;
 
 }
@@ -30,6 +27,35 @@ img {
   transform: rotate(20deg);
 
 }
+
+
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  padding-bottom: 11px;
+}
+
+
+.nav ul li {
+  display: inline-block;
+  font-variant: small-caps;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+
+}
+
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 
 .nav {
  width: 100%;
@@ -55,23 +81,6 @@ img {
 }
 
 
-.nav ul li {
-  display: inline-block;
-  font-variant: small-caps;
-  margin-right: 50px;
-  margin-left: 50px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-
-}
-
-
-.nav ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-
 
 .header {
    padding:10px;
@@ -79,34 +88,10 @@ img {
 
 
 .content {
-  padding:10px;
   margin: 0 auto 150px;
   max-width: 1160px;
   text-align: center;
 }
-
-
-nav {
-  position: fixed;
-  bottom: 0;
-  height: 45px;
-  background: #FFF;
-  padding-bottom: 11px;
-}
-
-
-
-.nav ul li {
-  display: inline-block;
-  font-variant: small-caps;
-  margin-right: 50px;
-  margin-left: 50px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-
-}
-
-
 
 
 /* Tablets */
@@ -116,10 +101,6 @@ nav {
     max-width: 768px;
   }
 
-  nav {
-    text-align: center;
-    height: 45px;
-  }
 
 
 
@@ -134,21 +115,20 @@ nav {
 
   nav {
     text-align: center;
-    height: 110px;
+    height: 44px;
+
   }
 
-  .nav_left,
+  .nav_left {
+    float: left;
+  }
+
   .nav_right {
-    float: none;
+    float: right;
   }
 
   .nav ul li {
-    margin: 0 20px;
-  }
-
-
-  h1 {
-    text-align: center;
+    margin: 0 10px;
   }
 
 

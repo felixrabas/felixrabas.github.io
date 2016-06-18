@@ -19,6 +19,7 @@ h1 {
 
 }
 
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-variant: small-caps;
@@ -38,6 +39,15 @@ p {
 
 }
 
+.impressum {
+  font-size: 10px;
+
+}
+
+.impressumtext {
+  font-size: 20px
+}
+
 
 a {
   font-family: 'Montserrat', sans-serif;
@@ -48,12 +58,12 @@ a {
 
 }
 
+
 img {
  width: 200%;
  margin-top: 50px;
 
 }
-
 
 
 .she_images {
@@ -65,7 +75,6 @@ img {
   flex-wrap: wrap;
   margin-top: 100px;
 }
-
 
 
 nav {
@@ -172,6 +181,13 @@ nav {
 /* Smartphones */
 @media screen and (max-width: 640px) {
 
+
+   {
+
+
+
+  }
+
   nav {
     text-align: center;
     height: 45px;
@@ -188,6 +204,7 @@ nav {
   .nav ul li {
     margin: 0 10px;
   }
+
 
 
   .zoom {
